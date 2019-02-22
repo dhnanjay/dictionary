@@ -1,1 +1,127 @@
 
+h1 {
+    color: #8c3945 !important;
+    font-size: 1.1em !important;
+    text-transform: uppercase !important;
+    padding-left: 5px;
+}
+
+h3 {
+    line-height: normal;
+    color: #8c3945 !important;
+    font-size: .9em !important;
+    text-transform: uppercase !important;
+    padding-left: 5px;
+}
+
+.page-header .logo-small {
+            position: absolute;
+            z-index: 100;
+            left: 0px;
+            top: 0px;
+            display: block;
+            width: 20%;
+            height: 100%;
+            background: url(logo_horizontal.svg) no-repeat;
+            text-indent: -9999px;
+            overflow: hidden;
+        }       
+.hr {
+            display: block;
+            margin-before: 0.5em;
+            margin-after: 0.5em;
+            margin-start: auto;
+            margin-end: auto;
+            overflow: hidden;
+            border-style: inset;
+            border-width: 9px;
+            width: 100%;
+            border-color: #9b8876;
+    }
+.ui-listview > li.ui-first-child, .ui-listview > li.ui-first-child > a.ui-btn {
+            background-color: #e5ddd5;
+        }
+.ui-listview > .ui-li-static {
+            padding: 0px;
+            background-color: #f3f1ec;
+        }
+
+.ui-collapsible {
+            background-color: #f9f8f2;
+        }
+.ui-collapsible-themed-content .ui-collapsible-content {
+            background-color: #f3f1ec;
+        }
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+            background-color: rgb(146, 127, 105)
+        }
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a {
+            background-color: #f3f1ec /*{a-bup-background-color}*/;
+            border-color: #e5dfd8 /*{a-bup-border}*/;
+            font-size: 0.84em;
+            font-family: Serif;
+            color: #8a3544 /*{a-bup-color}*/;
+            text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #f3f3f3 /*{a-bup-shadow-color}*/;
+        }
+
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {
+
+            background-color: #e5e1da;
+            border-color: #e5e1da;
+            color: #8c3945;
+            text-shadow: 0 1px 0 #f3f3f3;
+        }
+
+.home {
+            background-color: #f3f0eb;
+            background-image: url('devanagari.png');
+            background-color: rgba(255, 255, 255, 0.975);
+            background-blend-mode: lighten;
+
+}
+
+
+
+.card {
+            background: linear-gradient(0.25turn, #f3f1ec, #ebf8e1, #9b8876);
+            border: 0 !important;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+
+            min-width: 0;
+            word-wrap: break-word;
+            background-clip: border-box;
+            border-radius: .500rem !important;
+    }
+
+
+.wrap {
+            white-space: normal !important;
+            font-size: 0.87em !important;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 2.5%;
+        }
+
+.card-title, .card-subtitle {
+            font-size: small;
+            font-style: oblique;
+            font-weight: bold;
+            color: #615962;
+        }
+.list-group-item:focus, .list-group-item:hover {
+    z-index: 1;
+    text-decoration: none;
+    background-color: #b0a692;
+}
+
+.list-group-item {
+    border: 0 !important;
+}
+
+.col-sm, .col {
+    padding-bottom: 11px;
+}
+
