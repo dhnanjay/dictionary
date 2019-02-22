@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hindu Spritual Dictionary</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jquery.mobile.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <script src="js/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.mobile-1.4.2.min.js" crossorigin="anonymous"></script>
+    <script src="js/dictionary.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body class="home">
+
+<div data-role="page" data-control-title="Home" id="page1" class="home">
+    <div class="hr"></div>
+    <div class="page-header">
+        <div data-theme="a" data-role="header">
+            <div class="page-header">
+                <a class="logo-small">
+                    <h3>Kauai's Hindu Monastery</h3>
+                </a>
+            </div>
+            <h1 id="a_header1" class="ui-title header">
+                Hindu Lexicon
+            </h1>
+        </div>
+    </div>
+    <div class="hr"></div><div class="page-header"><br>
+    <div class="container">
+        <div class="container-fluid" id="dict_data">
+            <!-- Actual Data -->
+        </div>
+    </div></div>
+    <div class="home"></div>
+    <footer class="page-footer">
+        <div class="hr"></div>
+    </footer>
+</div> <!-- page 1 ends -->
+<!-- Page b -->
+<div data-role="page" data-control-title="B" id="page_b" class="home">
+    <div class="hr"></div>
+    <div class="page-header">
+        <div data-theme="a" data-role="header">
+            <div class="page-header">
+                <a class="logo-small">
+                    <h3>Kauai's Hindu Monastery</h3>
+                </a>
+            </div>
+            <h1 id="a_header2" class="ui-title header">
+                B
+            </h1>
+            <a data-transition="slidefade" href="#page1" class="ui-btn ui-btn-right">
+                Back
+            </a>
+        </div>
+        <div class="hr"></div>
+        <div class="page-header"><br>
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="container mt-3">
+                        <input class="form-control" id="myInput" type="text" placeholder="Search.." />
+                        <br>
+                        <ul class="list-group" id="myList" data-role="listview" data-divider-theme="a" data-inset="true">
+                            <li data-role="list-divider" role="heading" class="list-group-item">
+                                <h1 id="listH">B</h1>
+                            </li>
+                            <!-- Actual Data -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home"></div>
+    <footer class="page-footer">
+        <div class="hr"></div>
+    </footer>
+</div><!-- page b ends !>
+
+</body>
+</html>
